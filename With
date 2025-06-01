@@ -1,0 +1,43 @@
+Keep systems available, reliable, and resilient
+
+Minimize manual ops work (Toil)
+
+Improve incident response
+
+Enable faster deployments without sacrificing reliability
+
+🔑 Key Concepts in SRE
+Concept	Description
+SLI (Service Level Indicator)	A metric that measures system behavior (e.g., latency, uptime)
+SLO (Service Level Objective)	A target for the SLI (e.g., 99.9% uptime)
+SLA (Service Level Agreement)	A formal agreement with customers on expected service level
+Error Budget	The allowed threshold of failure; drives decision-making between reliability and velocity
+Toil	Manual, repetitive, automatable work that SREs aim to eliminate
+Incident Management	Structured process for detecting, responding to, and learning from outages
+
+🔧 SRE Responsibilities
+Automating operations (CI/CD, deployments, monitoring)
+
+Creating and enforcing SLOs
+
+Infrastructure as Code (Terraform, CloudFormation)
+
+Observability (logs, metrics, traces)
+
+Handling on-call and incident response
+
+Chaos engineering & load testing
+
+Scaling systems safely
+
+⚙️ Tools Commonly Used in SRE
+Monitoring: Prometheus, Grafana, Datadog, New Relic
+
+Logging: ELK stack, Fluentd, Loki
+
+Alerting: PagerDuty, Opsgenie, Alertmanager
+
+Infrastructure: Terraform, Ansible, Kubernetes, Docker
+
+Cloud: AWS, GCP, Azure
+
